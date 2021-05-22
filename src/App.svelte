@@ -56,8 +56,8 @@
         context.fillRect(
             x * factor,
             y * factor,
-            factor * factor,
-            factor * factor
+            factor,
+            factor
           );
       }
     }

@@ -363,7 +363,7 @@ var app = (function () {
     			attr_dev(canvas, "id", "c");
     			attr_dev(canvas, "width", /*width*/ ctx[0]);
     			attr_dev(canvas, "height", /*height*/ ctx[1]);
-    			add_location(canvas, file, 72, 0, 1880);
+    			add_location(canvas, file, 72, 0, 1863);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -405,7 +405,7 @@ var app = (function () {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("App", slots, []);
     	let context;
-    	let factor = 6;
+    	let factor = 1;
     	let width = window.screen.availWidth;
     	let height = window.screen.availHeight;
     	let m = { x: width / 2, y: height / 2 };
@@ -442,7 +442,7 @@ var app = (function () {
     					context.fillStyle = "white";
     				}
 
-    				context.fillRect(x * factor, y * factor, factor * factor, factor * factor);
+    				context.fillRect(x * factor, y * factor, factor, factor);
     			}
     		}
 
