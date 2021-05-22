@@ -10,7 +10,7 @@
 
   let context;
 
-  let factor = 6;
+  let factor = 1;
   let width = window.screen.availWidth;
   let height = window.screen.availHeight;
   let m = { x: width/ 2, y: height/2 };
