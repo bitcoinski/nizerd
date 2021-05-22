@@ -1,5 +1,5 @@
 # nizerd
- random stuff, canvas and p5js on svelte for SPA NFTs
+ random stuff - canvas and p5js (soon) on svelte for SPA NFTs
 
  # To test locally:
  npm run dev
